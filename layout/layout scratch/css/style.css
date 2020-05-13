@@ -155,11 +155,11 @@
 #portfolio{
 
     width: 1200px;
-    height: 900px;
+    height: 1000px;
     
-    background-color: aliceblue;
+    background-color: rgb(231, 234, 241);
     padding-top: 100px;
-    padding-left: 40px;
+    
     margin: auto;
 }
 #portfolio p{
@@ -181,7 +181,8 @@
 } 
 .portfolio-concept-1{
     flex-basis: 15%;
-
+   
+    
     
 }
 .portfolio-concept-2{
@@ -200,22 +201,23 @@
     flex-basis: 15%;
 }
 .portfolio-concept{
-justify-content: space-between;
+
 flex-wrap:wrap;
+padding-left:40px ;
 }
 #portfolio img{
-    padding:30px 30px 30px;
-    height:300px;
-        width:300px;
+    padding:10px 10px 10px;
+    height:262px;
+        width:350px;
 }
 #service{
     
    
    
         
-        height: 400px;
+        height: 600px;
        
-       
+       padding:20px 20px 20px;
         text-align: center;
         line-height:2 ;
     
@@ -232,10 +234,9 @@ flex-wrap:wrap;
     } 
     .service-concept{
         display: flex;
-        position: relative;
-    
+        height:300px;
         padding:20px 20px 20px;
-        
+        background-color: rgb(231, 234, 241);
     }
     
     #service img{
@@ -256,7 +257,17 @@ flex-wrap:wrap;
         font-size: 20px;
     }
     
-        
+     .card-body{
+    
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        width:200px;
+        height: 211px;
+        border-bottom-width: 3px;
+
+     }   
         
 
     .service-concept-2{
@@ -326,7 +337,7 @@ flex-wrap:wrap;
     }
     #team{
     
-   
+      
         
         height: 500px;
        
@@ -354,8 +365,9 @@ flex-wrap:wrap;
 
     #team img{
         height:300px;
-        width:400px;
-        Padding:20px 20px 20px;
+        width:350px;
+        Padding:10px 25px 10px;
+        
     }
     .team-concept{
         display: flex;
@@ -395,6 +407,14 @@ padding:15px 0;
         padding-left: 15px;
        margin: auto;
 }
+.question1{
+    display: flex;
+}
+.childq1{
+    flex-basis: 100 ;
+    padding-left: 40px ;
+}
+
 #contact{
     
     height: 500px;
@@ -414,7 +434,7 @@ padding:15px 0;
     padding:20px 20px 20px;
 }
 .contact-child1{
-    flex-basis: 50%;
+    flex-basis: 60%;
     padding:50px 0;
     padding:20px 20px 20px;
     border-color: rgb(58, 73, 88);
@@ -422,7 +442,7 @@ padding:15px 0;
     height:400px;
 }
 .contact-child2{
-    flex-basis: 50%;
+    flex-basis: 40%;
     text-align: center;
     padding:20px 20px 20px;
     
