@@ -1,13 +1,22 @@
 .container{
     width: 1200px;
-     margin:auto
+    margin: auto;
+    
 }
 #header{
     
     padding:14px 0;
+    
 }
 #header h1{
     font-size: 24px;
+}
+.navigation{
+    text-align: right;
+}  
+.navigation a{
+    
+    text-decoration: none;
 }
 #banner{
     background-color: aliceblue;
@@ -34,7 +43,7 @@
     line-height: 56px;
     color: #364146;
 }
-    }
+    
 #banner p{
     font-size: 30px;
     font-weight: 400;
@@ -150,8 +159,8 @@
     
     background-color: aliceblue;
     padding-top: 100px;
-
-
+    padding-left: 40px;
+    margin: auto;
 }
 #portfolio p{
     font-size: 20px;
@@ -211,7 +220,7 @@ flex-wrap:wrap;
         line-height:2 ;
     
         width:1200px;
-        
+       margin: auto; 
     
     }
 
@@ -318,7 +327,6 @@ flex-wrap:wrap;
     #team{
     
    
-        margin: auto;
         
         height: 500px;
        
@@ -328,8 +336,8 @@ flex-wrap:wrap;
     
         width:1200px;
         padding:40px 0;
-        padding-left: 15px;
         
+        margin: auto;
     
     }
     #team p{
@@ -351,22 +359,21 @@ flex-wrap:wrap;
     }
     .team-concept{
         display: flex;
-        position: relative;
+       
     
-    padding-right: 15px;
-    padding-left: 15px;
+   
      
     }
     .team-concept-1{
       flex-basis: 10%;
-      flex-shrink: 10;
+     
       
     }
     .team-concept-2{
-        flex-basis: 20%;  
+        flex-basis: 10%;  
       }
       .team-concept-3{
-        flex-basis: 20%;  
+        flex-basis: 10%;  
       }
     #question h2{
       font-size: 40px;
@@ -386,7 +393,7 @@ padding:15px 0;
         width:1200px;
         padding:60px 0;
         padding-left: 15px;
-       
+       margin: auto;
 }
 #contact{
     
