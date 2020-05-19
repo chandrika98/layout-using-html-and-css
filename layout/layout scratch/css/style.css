@@ -3,6 +3,7 @@
     margin: auto;
     
 }
+
 #header{
     
     padding:14px 0;
@@ -22,7 +23,7 @@
     background-color: aliceblue;
     height: 400px;
     padding:40px 0;
-     
+    
 }
 #banner img{
     width:500px;
