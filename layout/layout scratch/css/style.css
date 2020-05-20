@@ -453,3 +453,116 @@ padding:15px 0;
     text-align: center;
     font-size: 24px;
 }
+#client{
+    text-align: center;
+}
+#client p{
+    text-align: center;
+    padding: 16px 0px 45px 0px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #576971;
+}   
+#client h2{
+ padding-top: 30px;   
+} 
+#client .icon_top{
+    display: flex;
+}
+#client .icon_bottom{
+    display: flex;
+}
+#client .item{
+    border: solid 1px #ccc;
+    text-align: center;
+    padding: 25px;
+}
+
+/*----------PRICING----------*/
+
+#pricing{
+    background-color: #f7f8f9;
+    text-align: center ;
+}
+#pricing h2{
+    margin-top: 56px;
+    padding: 50px 10px 10px 0px;
+}
+#pricing h3{
+    padding: 0px 10px 24px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+#pricing p{
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.pricing_bottom{
+    display: flex;
+}
+.pricing_bottom .price{
+    background-color: white;
+    border: solid 1px white;
+    text-align: center;
+    margin: 56px 31px;
+    padding: 57px 44px;
+    box-shadow: 0px 0px 28px 12px #ccccccb5;
+}
+#pricing .pricing_bottom p{
+    line-height: 35px;
+}
+#pricing .pricing_bottom .btn{
+    border: solid 1px #009cea;
+    color: white;
+    background-color: #009cea;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#pricing .pricing_bottom strong{
+    font-size: 30px;
+}
+#pricing .pricing_bottom span{
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+#pricing .pricing_bottom sup{
+    padding-top: 10px;
+}
+#pricing .pricing_bottom .pr2{
+    background-color: #009cea;
+    color: white;
+}
+#pricing .pricing_bottom .btn1{
+    background-color: white;
+    color: #009cea;
+    border: solid 1px #009cea;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#pricing p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #364146;
+}
+#pricing h2 {
+    
+   font-size:40px;
+   font-weight: 400;
+   line-height: 1.5; ; 
+} 
+#client p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #364146;
+}
+#client h2 {
+    
+   font-size:40px;
+   font-weight: 400;
+   line-height: 1.5; ; 
+} 
